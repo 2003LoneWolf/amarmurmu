@@ -1,16 +1,24 @@
-import React from 'react'
+import React from "react";
 
 function Whatido() {
   return (
-    <div className='w-screen h-screen'>
-         <div className="w-full overflow-hidden">
-      <div className="marquee">
-        This text is scrolling using Tailwind CSS!
-      </div>
+    <div className="relative flex overflow-x-hidden">
+      <div className="py-12 animate-marquee whitespace-nowrap">
+    <span className="text-4xl mx-4">Marquee Item 1</span>
+    <span className="text-4xl mx-4">Marquee Item 2</span>
+    <span className="text-4xl mx-4">Marquee Item 3</span>
+    <span className="text-4xl mx-4">Marquee Item 4</span>
+    <span className="text-4xl mx-4">Marquee Item 5</span>
+  </div>      
+  <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+    <span className="text-4xl mx-4">Marquee Item 1</span>
+    <span className="text-4xl mx-4">Marquee Item 2</span>
+    <span className="text-4xl mx-4">Marquee Item 3</span>
+    <span className="text-4xl mx-4">Marquee Item 4</span>
+    <span className="text-4xl mx-4">Marquee Item 5</span>
+  </div>
     </div>
-
-    </div>
-  )
+  );
 }
 
-export default Whatido
+export default Whatido;
