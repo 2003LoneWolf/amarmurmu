@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 const inter = Inter({ subsets: ["latin"] });
+import NextTopLoader from 'nextjs-toploader';
+
 
 export const metadata: Metadata = {
   title: "Amar Murmu",
@@ -17,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-gray-50 relative`}>
+        <NextTopLoader color="#8338ec"/>
         <div className="bg-[#8338ec] -z-10 h-[20rem] w-[20rem] rounded-full blur-[10rem] absolute left-[10rem]"></div>
         <Navbar/>
         {children}
