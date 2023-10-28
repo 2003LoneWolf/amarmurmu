@@ -15,7 +15,7 @@ interface ProjectCard{
 
 export default function ProjectCard(props:ProjectCard) {
   return (
-    <motion.div className='w-[80vw] h-[70vh] bg-white  shadow-lg flex mt-32 justify-between '
+    <motion.div className='w-[80vw] h-[70vh] bg-white  shadow-lg flex mt-32 justify-between overflow-auto '
     initial={{ y: 100, x:"0%",opacity:0}}
     animate={{y:0,x:"0%",opacity:1}}>
         <div className='p-10 w-[60%] flex flex-col justify-between'>
