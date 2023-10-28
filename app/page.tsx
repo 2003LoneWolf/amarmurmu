@@ -1,6 +1,6 @@
 import React from "react";
-import HeroSection from "./components/HeroSection";
-import Whatido from "./components/Whatido";
+import HeroSection from "./components/heroSection";
+import Whatido from "./components/whatido";
 
 export default function Home() {
   return (

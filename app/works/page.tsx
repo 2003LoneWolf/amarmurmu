@@ -25,12 +25,10 @@ const projects = [
 ];
 
 const WorksPage = () => {
-    const webDevProjects = projects.filter((project) => project.category === 'Web Dev');
-    const gameDesignProjects = projects.filter((project) => project.category === 'Game Design');
-    const gameDevProjects = projects.filter((project) => project.category === 'Game Dev');
 
     return (
         <div>
+            
             
         </div>
     );
