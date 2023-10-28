@@ -4,8 +4,8 @@ import React from 'react'
 
 export default function ProjectCard() {
   return (
-    <div className='w-[80%] h-[70vh] bg-white  shadow-lg flex mt-32 justify-between '>
-        <div className='p-10'>
+    <div className='w-[80vw] h-[70vh] bg-white  shadow-lg flex mt-32 justify-between '>
+        <div className='p-10 w-[60%]'>
             <div className='text-[64px] leading-none mb-[5%] '>Zash - E-commerce website </div>
             <div className='text-lg mb-[10%]'>This is discription</div>
             <div className='flex gap-10'>
@@ -14,7 +14,7 @@ export default function ProjectCard() {
                 
             </div>
         </div>
-        <div className='w-[50%] flex' >
+        <div className='flex' >
             <Image width={500} height={500} className=' object-cover'  src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2a25fb182440289.Y3JvcCwxMzMzLDEwNDMsMCww.png" alt='disc of image'/>
         </div>
         
