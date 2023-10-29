@@ -12,6 +12,13 @@ const WorksPage = () => {
         github="https://github.com/2003LoneWolf/ZASH-ecommerce-php"
         image="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/997680178308147.Y3JvcCwxNDAwLDEwOTUsMCwyNA.jpg"
       />
+      <ProjectCard
+        title="Rayban Frontend"
+        disc="Frontend website for Rayban Brand"
+        livelink="https://2003lonewolf.github.io/rayban_web/"
+        github="https://github.com/2003LoneWolf/rayban_web"
+        image="/img/rayban.png"
+      />
     </div>
   );
 };
